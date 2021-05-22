@@ -30,6 +30,7 @@ public class Controller {
     }
 
     public void menu() {
+        view.printInstructions();
         do {
             System.out.print("Input command: ");
             readCommand();
